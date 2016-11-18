@@ -2,18 +2,18 @@
   <section class="sidebar">
     <ul class="sidebar-menu">
       <li class="header"></li>
-      <li>
-        <a href="#">
+      <li ng-class="{active: sidebar.isActive('/form')}">
+        <a href="#/form">
           <i class="fa fa-edit"></i> <span>Shit/Blej</span>
         </a>
       </li>
-      <li>
-        <a href="#">
+      <li ng-class="{active: sidebar.isActive('/sales')}">
+        <a href="#/sales">
           <i class="fa fa-table"></i> <span>Lista e Shitjeve</span>
         </a>
       </li>
-      <li>
-        <a href="#">
+      <li ng-class="{active: sidebar.isActive('/purchases')}"> 
+        <a href="#/purchases">
           <i class="fa fa-table"></i> <span>Lista e Blerjeve</span>
         </a>
       </li>
